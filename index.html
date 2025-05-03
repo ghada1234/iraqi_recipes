@@ -1,0 +1,1592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taste of Iraq: Healthy & Traditional Recipes</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #fff8f0; padding: 20px; }
+    .dish-table { width: 100%; margin-bottom: 40px; border-collapse: collapse; }
+    .dish-table td { vertical-align: top; padding: 10px; }
+    .dish-table img { width: 100%; max-width: 400px; border-radius: 8px; }
+    h2.dish-title { color: #8B0000; margin-top: 0; }
+    table.nutrition { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    table.nutrition th, table.nutrition td { border: 1px solid #ccc; padding: 8px; }
+    table.nutrition th { background-color: #f5e1d2; }
+  </style>
+<script>
+  function filterRecipes() {
+  const query = document.getElementById("search").value.toLowerCase();
+  const mealType = document.getElementById("mealFilter").value.toLowerCase();
+  const tables = document.querySelectorAll(".dish-table");
+
+  tables.forEach(table => {
+    const fullText = table.innerText.toLowerCase();
+    const matchesQuery = fullText.includes(query);
+
+    const matchesMeal = mealType === "" || fullText.includes(mealType);
+    table.style.display = (matchesQuery && matchesMeal && matchesLang) ? "" : "none";
+  });
+  }
+</script>
+</head>
+<body>
+  <h1>Taste of Iraq: Healthy & Traditional Recipes</h1>
+  <div style="margin-bottom: 20px;">
+
+  </div>
+
+  <!-- Quzi -->
+  <table class="dish-table">
+    <tr style="display: none;"><td>meal: dinner</td></tr>
+    <tr>
+      <td>
+        <h2 class="dish-title">Quzi (قوزي)</h2>
+        <p><strong>Dish Description:</strong> A festive centerpiece with tender lamb on spiced rice with raisins and almonds.</p>
+        <h3>Ingredients</h3>
+        <ul>
+          <li>1 lamb shoulder (2.5 kg)</li>
+          <li>3 cups basmati rice</li>
+          <li>1/2 cup raisins</li>
+          <li>1/2 cup almonds</li>
+          <li>2 onions, chopped</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+          <li>Preheat oven to 160°C (320°F).</li>
+          <li>Season lamb and roast for 3 hours.</li>
+          <li>Sauté onions, cook rice with raisins and almonds.</li>
+          <li>Serve lamb on top of rice.</li>
+        </ol>
+        <h3>📊 Nutritional Information</h3>
+        <table class="nutrition">
+          <tr><th>Nutrient</th><th>Amount</th></tr>
+          <tr><td>Calories</td><td>650 kcal</td></tr>
+          <tr><td>Protein</td><td>45 g</td></tr>
+          <tr><td>Fat</td><td>30 g</td></tr>
+          <tr><td>Carbohydrates</td><td>50 g</td></tr>
+          <tr><td>Fiber</td><td>3 g</td></tr>
+          <tr><td>Sodium</td><td>450 mg</td></tr>
+        </table>
+      </td>
+      <td style="width: 40%;"><img src="images/Quzi.jpg" alt="Quzi"></td>
+    </tr>
+  </table>
+  <!-- Healthy Quzi -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Quzi (قوزي صحي)</h2>
+      <p><strong>Dish Description:</strong> A lighter version using lean lamb cuts, brown rice, and roasted nuts without frying.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1.5 kg lean lamb (trimmed of fat)</li>
+        <li>3 cups brown basmati rice</li>
+        <li>1/4 cup raisins</li>
+        <li>1/4 cup almonds, toasted</li>
+        <li>1 onion, chopped</li>
+        <li>Spices: turmeric, cumin, cinnamon</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Steam lamb with spices instead of roasting.</li>
+        <li>Use olive oil sparingly to sauté onion.</li>
+        <li>Cook rice with raisins and almonds, no added butter.</li>
+        <li>Serve lamb over rice.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>520 kcal</td></tr>
+        <tr><td>Protein</td><td>47 g</td></tr>
+        <tr><td>Fat</td><td>18 g</td></tr>
+        <tr><td>Carbohydrates</td><td>45 g</td></tr>
+        <tr><td>Fiber</td><td>5 g</td></tr>
+        <tr><td>Sodium</td><td>320 mg</td></tr>
+      </table>
+    </td>      <td style="width: 40%;"><img src="images/Quzi.jpg" alt="Quzi"></td>
+
+  </tr>
+</table>
+
+
+  <!-- Tepsi Baytinijan -->
+  <table class="dish-table">
+    <tr style="display: none;"><td>meal: lunch</td></tr>
+    <tr>
+      <td>
+        <h2 class="dish-title">Tepsi Baytinijan (تبسي باذنجان)</h2>
+        <p><strong>Dish Description:</strong> A casserole of fried eggplant, meatballs, potatoes, and tomato sauce. A comforting classic of Iraqi family gatherings.</p>
+        <h3>Ingredients</h3>
+        <ul>
+          <li>2 eggplants</li>
+          <li>300g minced meat</li>
+          <li>2 tomatoes</li>
+          <li>2 potatoes</li>
+          <li>Garlic, onions, salt, pepper, spices</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+          <li>Fry the eggplant slices.</li>
+          <li>Form meatballs and layer them with vegetables.</li>
+          <li>Bake until tender.</li>
+        </ol>
+        <h3>📊 Nutritional Information</h3>
+        <table class="nutrition">
+          <tr><th>Nutrient</th><th>Amount</th></tr>
+          <tr><td>Calories</td><td>520 kcal</td></tr>
+          <tr><td>Protein</td><td>22 g</td></tr>
+          <tr><td>Fat</td><td>38 g</td></tr>
+          <tr><td>Carbohydrates</td><td>25 g</td></tr>
+          <tr><td>Fiber</td><td>7 g</td></tr>
+          <tr><td>Sodium</td><td>600 mg</td></tr>
+        </table>
+      </td>
+      <td style="width: 40%;"><img src="images/tepsi_b.jpg" alt="Tepsi Baytinijan"></td>
+    </tr>
+  </table>
+<!-- Healthy Tepsi Baytinijan -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Tepsi Baytinijan (تبسي باذنجان صحي)</h2>
+      <p><strong>Dish Description:</strong> A lighter version of the classic casserole, with baked eggplant, lean ground meat, and less oil. Still rich in flavor and perfect for a wholesome lunch.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>2 eggplants, sliced and baked (not fried)</li>
+        <li>300g lean ground beef or turkey</li>
+        <li>2 tomatoes, sliced</li>
+        <li>2 potatoes, sliced and baked</li>
+        <li>1 onion, chopped</li>
+        <li>2 cloves garlic, minced</li>
+        <li>Salt, pepper, cumin, and paprika to taste</li>
+        <li>1 tbsp olive oil</li>
+        <li>1/2 cup tomato sauce (low sodium)</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Preheat oven to 200°C (390°F).</li>
+        <li>Lightly brush eggplant and potato slices with olive oil and bake until tender.</li>
+        <li>Sauté onion and garlic, then add lean meat and spices until cooked.</li>
+        <li>In a baking dish, layer vegetables and meat. Pour tomato sauce over.</li>
+        <li>Cover with foil and bake for 25–30 minutes.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>390 kcal</td></tr>
+        <tr><td>Protein</td><td>26 g</td></tr>
+        <tr><td>Fat</td><td>14 g</td></tr>
+        <tr><td>Carbohydrates</td><td>35 g</td></tr>
+        <tr><td>Fiber</td><td>8 g</td></tr>
+        <tr><td>Sodium</td><td>450 mg</td></tr>
+      </table>
+    </td>      <td style="width: 40%;"><img src="images/tepsi_b.jpg" alt="Tepsi Baytinijan"></td>
+
+  </tr>
+</table>
+
+  <!-- Maqluba -->
+  <table class="dish-table">
+    <tr style="display: none;"><td>meal: dinner</td></tr>
+    <tr>
+      <td>
+        <h2 class="dish-title">Maqluba</h2>
+        <p><strong>Dish Description:</strong> A layered “upside-down” dish of meat, vegetables, and rice flipped like a cake. Iconic across the Middle East.</p>
+        <h3>Ingredients</h3>
+        <ul>
+          <li>500g lamb or chicken</li>
+          <li>2 cups basmati rice</li>
+          <li>2 eggplants, 2 potatoes, 2 tomatoes</li>
+          <li>1 onion, 1 tsp turmeric, allspice, salt</li>
+          <li>3 cups broth</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+          <li>Boil meat and reserve broth.</li>
+          <li>Fry vegetables, layer with rice and meat in a pot.</li>
+          <li>Add broth, cook until rice is done, then flip to serve.</li>
+        </ol>
+        <h3>📊 Nutritional Information</h3>
+        <table class="nutrition">
+          <tr><th>Nutrient</th><th>Amount</th></tr>
+          <tr><td>Calories</td><td>550 kcal</td></tr>
+          <tr><td>Protein</td><td>25 g</td></tr>
+          <tr><td>Carbohydrates</td><td>60 g</td></tr>
+          <tr><td>Fat</td><td>25 g</td></tr>
+          <tr><td>Fiber</td><td>6 g</td></tr>
+          <tr><td>Sodium</td><td>600 mg</td></tr>
+        </table>
+      </td>
+      <td style="width: 40%;"><img src="images/maq.jpg" alt="Maqluba"></td>
+    </tr>
+  </table>
+<!-- Healthy Maqluba -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Maqluba (مقلوبة صحية)</h2>
+      <p><strong>Dish Description:</strong> A nutritious twist on the traditional layered rice dish, using skinless chicken, baked vegetables, and brown rice for a fiber-rich, heart-friendly meal.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>500g skinless chicken breast or thighs</li>
+        <li>2 cups brown basmati rice (soaked)</li>
+        <li>2 eggplants, 2 potatoes, 2 tomatoes (baked, not fried)</li>
+        <li>1 large onion, sliced</li>
+        <li>1 tsp turmeric, 1 tsp allspice</li>
+        <li>Salt and pepper to taste</li>
+        <li>3 cups low-sodium chicken broth</li>
+        <li>1 tbsp olive oil (optional)</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Bake eggplant, potato, and tomato slices until soft and golden.</li>
+        <li>Lightly sauté onions and chicken with spices in olive oil or water.</li>
+        <li>In a pot, layer vegetables, chicken, and soaked brown rice.</li>
+        <li>Pour broth on top, cover tightly, and simmer on low for 45–50 minutes.</li>
+        <li>Flip the pot upside down onto a platter to serve.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>480 kcal</td></tr>
+        <tr><td>Protein</td><td>35 g</td></tr>
+        <tr><td>Fat</td><td>14 g</td></tr>
+        <tr><td>Carbohydrates</td><td>50 g</td></tr>
+        <tr><td>Fiber</td><td>7 g</td></tr>
+        <tr><td>Sodium</td><td>400 mg</td></tr>
+      </table>
+    </td>      <td style="width: 40%;"><img src="images/maq.jpg" alt="Maqluba"></td>
+
+  </tr>
+</table>
+
+  <!-- Dolma -->
+  <table class="dish-table">
+    <tr style="display: none;"><td>meal: lunch</td></tr>
+    <tr>
+      <td>
+        <h2 class="dish-title">Dolma</h2>
+        <p><strong>Dish Description:</strong> Vegetables and vine leaves stuffed with rice, herbs, and spiced meat. Layered with lamb and potatoes, then simmered slowly.</p>
+        <h3>Ingredients</h3>
+        <ul>
+          <li>3 cups rice, 1.5 kg meat, chopped herbs</li>
+          <li>Vine leaves, onions, eggplant, zucchini, tomato</li>
+          <li>Spices, tomato paste, lemon juice</li>
+          <li>Lamb chops, potatoes, bouillon cubes</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+          <li>Prep and stuff vegetables and vine leaves.</li>
+          <li>Layer with lamb chops and potatoes.</li>
+          <li>Simmer with broth for 1.5–2 hours.</li>
+        </ol>
+        <h3>📊 Nutritional Information</h3>
+        <table class="nutrition">
+          <tr><th>Nutrient</th><th>Amount</th></tr>
+          <tr><td>Calories</td><td>467 kcal</td></tr>
+          <tr><td>Protein</td><td>67 g</td></tr>
+          <tr><td>Fat</td><td>46 g</td></tr>
+          <tr><td>Carbohydrates</td><td>55 g</td></tr>
+          <tr><td>Sodium</td><td>1642 mg</td></tr>
+        </table>
+      </td>
+      <td style="width: 40%;"><img src="images/dolma.jpg" alt="Dolma"></td>
+    </tr>
+  </table>
+<!-- Healthy Dolma -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Dolma (دولمة صحية)</h2>
+      <p><strong>Dish Description:</strong> A lighter take on the traditional Iraqi dolma, made with lean ground meat, less oil, and more herbs. Vegetables are stuffed and simmered without lamb layers for a lower-fat, high-fiber option.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1.5 cups brown rice</li>
+        <li>500g lean ground beef or turkey</li>
+        <li>Chopped parsley, dill, and mint (1/2 cup total)</li>
+        <li>1 onion, finely chopped</li>
+        <li>Vegetables for stuffing: bell peppers, zucchini, vine leaves, eggplant</li>
+        <li>2 tbsp tomato paste</li>
+        <li>Juice of 1 lemon</li>
+        <li>1 tbsp olive oil</li>
+        <li>Salt, pepper, cumin, and allspice</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Mix brown rice, ground meat, herbs, onion, tomato paste, and spices.</li>
+        <li>Stuff vegetables and layer tightly in a deep pot.</li>
+        <li>Drizzle lemon juice and olive oil on top. Add water just to cover.</li>
+        <li>Cover with a plate and lid. Simmer for 1–1.5 hours until vegetables are tender.</li>
+      </ol>
+     <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>390 kcal</td></tr>
+        <tr><td>Protein</td><td>28 g</td></tr>
+        <tr><td>Fat</td><td>12 g</td></tr>
+        <tr><td>Carbohydrates</td><td>40 g</td></tr>
+        <tr><td>Fiber</td><td>6 g</td></tr>
+        <tr><td>Sodium</td><td>420 mg</td></tr>
+      </table>
+    </td>      <td style="width: 40%;"><img src="images/dolma.jpg" alt="Dolma"></td>
+
+  </tr>
+</table>
+
+  <!-- Kahi with Geymar -->
+  <table class="dish-table">
+    <tr style="display: none;"><td>meal: breakfast</td></tr>
+    <tr>
+      <td>
+        <h2 class="dish-title">Kahi with Geymar (كاهي و قيمر)</h2>
+        <p><strong>Dish Description:</strong> A flaky pastry served warm with clotted cream (geymar) and date syrup. A beloved Iraqi breakfast.</p>
+        <h3>Ingredients</h3>
+        <ul>
+          <li>Flour, salt, water, ghee</li>
+          <li>For geymar: cream, milk, rosewater (optional)</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+          <li>Make dough, roll thin, fold and fry or bake.</li>
+          <li>Simmer cream + milk and chill to create geymar.</li>
+          <li>Serve kahi with geymar and date syrup.</li>
+        </ol>
+        <h3>📊 Nutritional Information</h3>
+        <table class="nutrition">
+          <tr><th>Nutrient</th><th>Amount</th></tr>
+          <tr><td>Calories</td><td>430 kcal</td></tr>
+          <tr><td>Fat</td><td>28 g</td></tr>
+          <tr><td>Carbohydrates</td><td>35 g</td></tr>
+          <tr><td>Protein</td><td>6 g</td></tr>
+          <tr><td>Sugar</td><td>10 g</td></tr>
+          <tr><td>Sodium</td><td>150 mg</td></tr>
+        </table>
+      </td>
+      <td style="width: 40%;"><img src="images/kahi.jpg" alt="Kahi with Geymar"></td>
+    </tr>
+  </table>
+<!-- Healthy Kahi with Geymar -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Kahi with Geymar (كاهي و قيمر صحية)</h2>
+      <p><strong>Dish Description:</strong> A lighter version of the beloved Iraqi breakfast using baked whole wheat pastry and homemade low-fat geymar made with yogurt and milk. Served with natural date syrup.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li><strong>For Healthy Kahi:</strong></li>
+        <li>1 cup whole wheat flour</li>
+        <li>1/4 tsp salt</li>
+        <li>1 tbsp olive oil</li>
+        <li>1/3 cup warm water</li>
+        <li><strong>For Low-Fat Geymar:</strong></li>
+        <li>1 cup low-fat milk</li>
+        <li>1/4 cup plain Greek yogurt</li>
+        <li>Optional: rosewater</li>
+        <li>Natural date syrup for serving</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li><strong>Kahi:</strong> Mix dough ingredients and knead well. Roll into thin sheets, fold, and bake at 200°C (390°F) for 10–12 mins until golden.</li>
+        <li><strong>Geymar:</strong> Simmer milk, then let cool slightly. Stir in yogurt and let thicken in the fridge for 6–8 hours.</li>
+        <li>Serve warm kahi with chilled geymar and drizzle of date syrup.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>280 kcal</td></tr>
+        <tr><td>Protein</td><td>9 g</td></tr>
+        <tr><td>Fat</td><td>11 g</td></tr>
+        <tr><td>Carbohydrates</td><td>34 g</td></tr>
+        <tr><td>Sugar</td><td>6 g</td></tr>
+        <tr><td>Fiber</td><td>4 g</td></tr>
+        <tr><td>Sodium</td><td>120 mg</td></tr>
+      </table>
+    </td>      <td style="width: 40%;"><img src="images/kahi.jpg" alt="Kahi with Geymar"></td>
+
+  </tr>
+</table>
+
+  <!-- Masgouf -->
+  <table class="dish-table">
+    <tr style="display: none;"><td>meal: dinner</td></tr>
+    <tr>
+      <td>
+        <h2 class="dish-title">Masgouf (مسگوف)</h2>
+        <p><strong>Dish Description:</strong> Butterflied carp marinated with tamarind, turmeric, and garlic, slow-cooked over open fire or baked. Smoky and traditional.</p>
+        <h3>Ingredients</h3>
+        <ul>
+          <li>1 whole carp, tamarind paste, turmeric, garlic</li>
+          <li>Olive oil, cumin, sumac (optional)</li>
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+          <li>Clean and butterfly the fish.</li>
+          <li>Marinate with tamarind mix.</li>
+          <li>Grill or bake until tender.</li>
+        </ol>
+        <h3>📊 Nutritional Information</h3>
+        <table class="nutrition">
+          <tr><th>Nutrient</th><th>Amount</th></tr>
+          <tr><td>Calories</td><td>450 kcal</td></tr>
+          <tr><td>Protein</td><td>35 g</td></tr>
+          <tr><td>Fat</td><td>25 g</td></tr>
+          <tr><td>Carbohydrates</td><td>6 g</td></tr>
+          <tr><td>Fiber</td><td>1 g</td></tr>
+          <tr><td>Sodium</td><td>500 mg</td></tr>
+        </table>
+      </td>
+      <td style="width: 40%;"><img src="images/masgouf.jpg" alt="Masgouf"></td>
+    </tr>
+  </table>
+  <!-- Healthy Masgouf -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Masgouf (مسگوف صحي)</h2>
+      <p><strong>Dish Description:</strong> A lighter take on the iconic Iraqi grilled carp, using less oil and baked instead of grilled. The fish is marinated with fresh herbs, garlic, lemon juice, and a touch of tamarind.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1 whole carp (butterflied and cleaned)</li>
+        <li>2 tbsp lemon juice</li>
+        <li>1 tbsp tamarind paste</li>
+        <li>3 cloves garlic, minced</li>
+        <li>1 tsp ground turmeric</li>
+        <li>1 tsp ground cumin</li>
+        <li>1 tbsp olive oil</li>
+        <li>Fresh parsley and dill for garnish (optional)</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Preheat oven to 200°C (390°F).</li>
+        <li>Mix lemon juice, tamarind, garlic, turmeric, cumin, and olive oil into a marinade.</li>
+        <li>Rub the fish inside and out with the marinade and let it rest for 30 minutes.</li>
+        <li>Place on a baking tray lined with parchment paper and bake for 25–30 minutes until flaky and browned.</li>
+        <li>Garnish with herbs and serve with a fresh salad or brown rice.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>380 kcal</td></tr>
+        <tr><td>Protein</td><td>38 g</td></tr>
+        <tr><td>Fat</td><td>20 g</td></tr>
+        <tr><td>Carbohydrates</td><td>5 g</td></tr>
+        <tr><td>Fiber</td><td>1 g</td></tr>
+        <tr><td>Sodium</td><td>320 mg</td></tr>
+      </table>
+    </td>      <td style="width: 40%;"><img src="images/masgouf.jpg" alt="Masgouf"></td>
+
+  </tr>
+</table>
+
+<!-- Tashreeb Laham -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: dinner</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Tashreeb Laham (تشريب لحم)</h2>
+      <p><strong>Dish Description:</strong> A traditional Iraqi stew made with lamb and vegetables in a tomato-based broth, poured over torn pieces of flatbread to soak up all the flavor. It's comforting, hearty, and commonly served for dinner.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>500g lamb (bone-in pieces preferred)</li>
+        <li>1 onion, chopped</li>
+        <li>2 tomatoes, chopped</li>
+        <li>3 cloves garlic, minced</li>
+        <li>3 tbsp tomato paste</li>
+        <li>5 cups water or lamb broth</li>
+        <li>Salt and pepper to taste</li>
+        <li>1 tsp turmeric</li>
+        <li>1/2 tsp ground cinnamon (optional)</li>
+        <li>4 pieces Iraqi or Arabic flatbread (torn)</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>In a large pot, sauté the onion and garlic until soft.</li>
+        <li>Add the lamb pieces and brown on all sides.</li>
+        <li>Stir in the tomatoes and tomato paste, then add spices and water.</li>
+        <li>Simmer for 1–1.5 hours until meat is tender.</li>
+        <li>Layer torn flatbread in a large serving dish and ladle stew over it.</li>
+        <li>Let the bread absorb the broth before serving.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>580 kcal</td></tr>
+        <tr><td>Protein</td><td>32 g</td></tr>
+        <tr><td>Fat</td><td>28 g</td></tr>
+        <tr><td>Carbohydrates</td><td>45 g</td></tr>
+        <tr><td>Fiber</td><td>4 g</td></tr>
+        <tr><td>Sodium</td><td>700 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/tashreeb.jpg" alt="Tashreeb Laham"></td>
+  </tr>
+</table>
+<!-- Healthy Tashreeb Laham -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Tashreeb Laham (تشريب لحم صحي)</h2>
+      <p><strong>Dish Description:</strong> A leaner and lighter version of the traditional lamb stew, using trimmed lamb, baked whole-wheat flatbread, and less oil while preserving all the comforting flavors.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>400g lean lamb (trimmed of fat)</li>
+        <li>1 onion, chopped</li>
+        <li>2 tomatoes, chopped</li>
+        <li>2 cloves garlic, minced</li>
+        <li>2 tbsp tomato paste (low-sodium)</li>
+        <li>5 cups water or vegetable broth (low-sodium)</li>
+        <li>1/2 tsp turmeric</li>
+        <li>Salt and pepper to taste</li>
+        <li>1/2 tsp cinnamon (optional)</li>
+        <li>2 small whole-wheat flatbreads, toasted and torn</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>In a pot, sauté onion and garlic in 1 tsp olive oil until soft.</li>
+        <li>Add the lamb and cook until browned on all sides.</li>
+        <li>Add tomatoes, tomato paste, spices, and broth.</li>
+        <li>Simmer for about 1 hour until lamb is tender.</li>
+        <li>Layer whole-wheat bread in a bowl and pour the stew on top.</li>
+        <li>Let it soak, then serve with a side of fresh parsley or salad.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>450 kcal</td></tr>
+        <tr><td>Protein</td><td>30 g</td></tr>
+        <tr><td>Fat</td><td>18 g</td></tr>
+        <tr><td>Carbohydrates</td><td>35 g</td></tr>
+        <tr><td>Fiber</td><td>6 g</td></tr>
+        <tr><td>Sodium</td><td>450 mg</td></tr>
+      </table>
+    </td>    <td style="width: 40%;"><img src="images/tashreeb.jpg" alt="Tashreeb Laham"></td>
+
+  </tr>
+</table>
+
+<!-- Kubba Mosul -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: lunch</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Kubba Mosul (كبة موصل)</h2>
+      <p><strong>Dish Description:</strong> A large, flat, baked meat pie made with a thin bulgur dough crust and a savory ground meat and nut filling. It originates from Mosul and is sliced into wedges for serving.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>2 cups fine bulgur</li>
+        <li>500g ground beef or lamb (for dough)</li>
+        <li>1 tsp salt, 1 tsp black pepper</li>
+        <li><strong>Filling:</strong></li>
+        <li>300g ground meat</li>
+        <li>1 onion, chopped</li>
+        <li>1/4 cup pine nuts</li>
+        <li>1 tsp allspice, 1/2 tsp cinnamon</li>
+        <li>Salt and pepper to taste</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Soak bulgur in water until soft. Mix with meat and spices to form a firm dough.</li>
+        <li>Sauté onion, meat, and spices for the filling. Add pine nuts.</li>
+        <li>Divide dough into two. Press one part in a greased tray, spread filling, cover with second layer.</li>
+        <li>Score into wedges and brush with oil. Bake at 200°C (400°F) for 30–40 mins until golden.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>480 kcal</td></tr>
+        <tr><td>Protein</td><td>30 g</td></tr>
+        <tr><td>Fat</td><td>22 g</td></tr>
+        <tr><td>Carbohydrates</td><td>38 g</td></tr>
+        <tr><td>Fiber</td><td>4 g</td></tr>
+        <tr><td>Sodium</td><td>550 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/kubba.jpg" alt="Kubba Mosul"></td>
+  </tr>
+</table>
+<!-- Healthy Kubba Mosul -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Kubba Mosul (كبة موصل صحي)</h2>
+      <p><strong>Dish Description:</strong> A healthier take on the traditional Mosul meat pie, using lean ground meat, bulgur, and baking instead of frying, while maintaining the authentic flavor.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>2 cups fine bulgur</li>
+        <li>400g lean ground beef or lamb (for dough)</li>
+        <li>1 tsp salt, 1 tsp black pepper</li>
+        <li><strong>Filling:</strong></li>
+        <li>300g lean ground meat</li>
+        <li>1 onion, chopped</li>
+        <li>1/4 cup chopped walnuts (instead of pine nuts)</li>
+        <li>1 tsp allspice, 1/2 tsp cinnamon</li>
+        <li>Salt and pepper to taste</li>
+        <li>Spray olive oil (for brushing)</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Soak bulgur in warm water until soft. Mix with ground meat and seasonings to form a dough.</li>
+        <li>Sauté onion and meat with spices for the filling. Stir in walnuts.</li>
+        <li>Press half of dough in a nonstick tray, spread filling, then top with remaining dough layer.</li>
+        <li>Score into wedges, spray lightly with olive oil, and bake at 200°C (400°F) for 25–30 minutes until crisp and golden.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>390 kcal</td></tr>
+        <tr><td>Protein</td><td>27 g</td></tr>
+        <tr><td>Fat</td><td>15 g</td></tr>
+        <tr><td>Carbohydrates</td><td>32 g</td></tr>
+        <tr><td>Fiber</td><td>5 g</td></tr>
+        <tr><td>Sodium</td><td>350 mg</td></tr>
+      </table>
+    </td>    <td style="width: 40%;"><img src="images/kubba.jpg" alt="Kubba Mosul"></td>
+
+  </tr>
+</table>
+
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: breakfast</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Bagila Bil Dihin (باقلاء بالدهن)</h2>
+      <p><strong>Dish Description:</strong> A classic Iraqi breakfast of broad beans stewed with garlic and layered over Iraqi bread, topped with fried eggs and a drizzle of oil or butter.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>2 cups cooked broad beans (or canned)</li>
+        <li>2 cloves garlic, minced</li>
+        <li>2 tbsp oil or ghee</li>
+        <li>1/2 tsp cumin (optional)</li>
+        <li>Salt and black pepper to taste</li>
+        <li>2 large eggs</li>
+        <li>2 pieces Iraqi bread (or pita), torn</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>In a pan, sauté garlic in oil. Add beans, salt, pepper, and cumin. Simmer for 5–10 minutes.</li>
+        <li>Fry the eggs sunny-side-up in ghee or oil.</li>
+        <li>Layer bread in a bowl, pour beans over, and top with eggs. Serve hot.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>390 kcal</td></tr>
+        <tr><td>Protein</td><td>18 g</td></tr>
+        <tr><td>Fat</td><td>20 g</td></tr>
+        <tr><td>Carbohydrates</td><td>32 g</td></tr>
+        <tr><td>Fiber</td><td>6 g</td></tr>
+        <tr><td>Sodium</td><td>400 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/bagila.jpg" alt="Bagila Bil Dihin"></td>
+  </tr>
+</table>
+<!-- Healthy Bagila Bil Dihin -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Bagila Bil Dihin (باقلاء بالدهن صحي)</h2>
+      <p><strong>Dish Description:</strong> A lighter version of the traditional Iraqi breakfast, using minimal olive oil, boiled eggs, and whole grain bread for a nourishing start to the day.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>2 cups cooked broad beans (or canned, rinsed)</li>
+        <li>2 cloves garlic, minced</li>
+        <li>1 tsp olive oil</li>
+        <li>1/2 tsp cumin (optional)</li>
+        <li>Salt and black pepper to taste</li>
+        <li>2 boiled eggs (instead of fried)</li>
+        <li>2 pieces whole wheat pita or Iraqi whole grain bread</li>
+        <li>Fresh parsley or mint (optional garnish)</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>In a nonstick pan, lightly sauté garlic in 1 tsp olive oil.</li>
+        <li>Add beans, cumin, salt, and pepper. Simmer for 5–10 minutes.</li>
+        <li>Boil eggs separately and slice in half.</li>
+        <li>Layer whole wheat bread in a bowl, pour beans over, and top with egg halves.</li>
+        <li>Garnish with fresh herbs and serve warm.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>310 kcal</td></tr>
+        <tr><td>Protein</td><td>18 g</td></tr>
+        <tr><td>Fat</td><td>10 g</td></tr>
+        <tr><td>Carbohydrates</td><td>35 g</td></tr>
+        <tr><td>Fiber</td><td>8 g</td></tr>
+        <tr><td>Sodium</td><td>320 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/bagila.jpg" alt="Bagila Bil Dihin"></td>
+
+  </tr>
+</table>
+
+
+<!-- Makhlama -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: breakfast</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Makhlama (مخلمة)</h2>
+      <p><strong>Dish Description:</strong> A savory Iraqi breakfast dish made with seasoned ground beef or lamb, onions, tomatoes, and eggs, served hot with fresh bread.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>500g ground beef or lamb</li>
+        <li>1 onion, diced</li>
+        <li>2 tomatoes, diced</li>
+        <li>1 tsp cumin</li>
+        <li>Salt and pepper to taste</li>
+        <li>3–4 eggs</li>
+        <li>Olive oil for frying</li>
+        <li>Chopped parsley (for garnish)</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Sauté onions in oil until translucent. Add ground meat and spices and cook through.</li>
+        <li>Add tomatoes and simmer until soft.</li>
+        <li>Make small wells and crack eggs into the pan. Cover and cook until eggs are set.</li>
+        <li>Garnish with parsley and serve with bread.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>470 kcal</td></tr>
+        <tr><td>Protein</td><td>28 g</td></tr>
+        <tr><td>Fat</td><td>35 g</td></tr>
+        <tr><td>Carbohydrates</td><td>5 g</td></tr>
+        <tr><td>Fiber</td><td>1 g</td></tr>
+        <tr><td>Sodium</td><td>300 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;">
+      <img src="images/makhlma.jpeg" alt="Makhlama Iraqi Skillet">
+    </td>
+  </tr>
+</table>
+<!-- Healthy Makhlama -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Makhlama (مخلمة صحي)</h2>
+      <p><strong>Dish Description:</strong> A healthier take on the traditional Iraqi skillet of meat and eggs, using lean ground meat, extra vegetables, and minimal olive oil.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>300g lean ground beef or turkey</li>
+        <li>1 onion, finely diced</li>
+        <li>2 tomatoes, chopped</li>
+        <li>1 zucchini, diced (optional)</li>
+        <li>1 tsp cumin</li>
+        <li>Salt and pepper to taste</li>
+        <li>2–3 eggs (poached or boiled instead of fried)</li>
+        <li>1 tsp olive oil</li>
+        <li>Fresh parsley for garnish</li>
+        <li>Serve with whole grain or low-carb bread</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Heat olive oil in a nonstick skillet and sauté onions until soft.</li>
+        <li>Add lean ground meat and cook until browned. Drain any excess fat if needed.</li>
+        <li>Add tomatoes, zucchini, and spices. Simmer for 10 minutes.</li>
+        <li>Poach eggs separately and place them on top before serving.</li>
+        <li>Garnish with fresh parsley and serve with healthy bread.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>370 kcal</td></tr>
+        <tr><td>Protein</td><td>28 g</td></tr>
+        <tr><td>Fat</td><td>18 g</td></tr>
+        <tr><td>Carbohydrates</td><td>10 g</td></tr>
+        <tr><td>Fiber</td><td>3 g</td></tr>
+        <tr><td>Sodium</td><td>280 mg</td></tr>
+      </table>
+    </td><td style="width: 40%;">
+      <img src="images/makhlma.jpeg" alt="Makhlama Iraqi Skillet">
+    </td>
+  </tr>
+</table>
+
+<!-- Kleicha -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: dessert</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Kleicha (كليجة)</h2>
+      <p><strong>Dish Description:</strong> Iraq’s national cookie, filled with date paste or nuts, and flavored with cardamom and rosewater. It’s a must-have for holidays and special occasions.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>3 cups all-purpose flour</li>
+        <li>1/2 cup ghee or butter</li>
+        <li>1/2 cup milk</li>
+        <li>1/4 cup sugar</li>
+        <li>1 tsp yeast</li>
+        <li>1/2 tsp ground cardamom</li>
+        <li><strong>Date filling:</strong> 1 cup date paste + 1 tbsp butter</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Mix flour, yeast, sugar, cardamom, butter, and milk to form dough. Let rise.</li>
+        <li>Roll dough, spread date paste, roll into logs, and cut.</li>
+        <li>Bake at 180°C (350°F) for 20–25 minutes until golden.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>180 kcal</td></tr>
+        <tr><td>Protein</td><td>3 g</td></tr>
+        <tr><td>Fat</td><td>7 g</td></tr>
+        <tr><td>Carbohydrates</td><td>28 g</td></tr>
+        <tr><td>Sugar</td><td>12 g</td></tr>
+        <tr><td>Sodium</td><td>60 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/kleicha.jpg" alt="Kleicha Iraqi Cookies"></td>
+  </tr>
+</table>
+<!-- Healthy Kleicha -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Kleicha (كليجة صحي)</h2>
+      <p><strong>Dish Description:</strong> A lighter version of the traditional Iraqi date-filled cookie, made with whole wheat flour, less sugar, and coconut oil instead of ghee.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>2 cups whole wheat flour</li>
+        <li>1/4 cup coconut oil (or light olive oil)</li>
+        <li>1/4 cup low-fat milk or plant milk</li>
+        <li>2 tbsp honey or date syrup</li>
+        <li>1 tsp yeast</li>
+        <li>1/2 tsp ground cardamom</li>
+        <li><strong>Filling:</strong> 3/4 cup soft date paste + 1 tsp cinnamon</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Mix flour, yeast, cardamom, oil, and milk to form a soft dough. Let it rise for 1 hour.</li>
+        <li>Roll out dough and spread date filling. Roll into a log and slice or shape into patterns.</li>
+        <li>Place on a baking tray and bake at 180°C (350°F) for 15–20 minutes until golden.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount (per piece)</th></tr>
+        <tr><td>Calories</td><td>120 kcal</td></tr>
+        <tr><td>Protein</td><td>2 g</td></tr>
+        <tr><td>Fat</td><td>4 g</td></tr>
+        <tr><td>Carbohydrates</td><td>18 g</td></tr>
+        <tr><td>Sugar</td><td>6 g</td></tr>
+        <tr><td>Fiber</td><td>2 g</td></tr>
+        <tr><td>Sodium</td><td>35 mg</td></tr>
+      </table>
+    </td>    <td style="width: 40%;"><img src="images/kleicha.jpg" alt="Kleicha Iraqi Cookies"></td>
+
+  </tr>
+</table>
+
+<!-- Timman Bagilla -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: lunch</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Timman Bagilla (تمن باقلة)</h2>
+      <p><strong>Dish Description:</strong> A fragrant Iraqi rice dish cooked with fava beans, dill, and often topped with eggs or lamb. It’s a springtime favorite and often served during Nowruz.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>2 cups basmati rice</li>
+        <li>1 cup shelled fava beans</li>
+        <li>1 bunch fresh dill (or 2 tbsp dried)</li>
+        <li>2 tbsp oil</li>
+        <li>Salt to taste</li>
+        <li>Optional: hard-boiled eggs or lamb shanks</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Parboil rice and drain. Sauté dill and fava beans in oil.</li>
+        <li>Layer rice over beans, steam on low heat for 20 minutes.</li>
+        <li>Serve with eggs or lamb if desired.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>420 kcal</td></tr>
+        <tr><td>Protein</td><td>10 g</td></tr>
+        <tr><td>Fat</td><td>9 g</td></tr>
+        <tr><td>Carbohydrates</td><td>75 g</td></tr>
+        <tr><td>Fiber</td><td>6 g</td></tr>
+        <tr><td>Sodium</td><td>300 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/timan_bag.jpg" alt="Timman Bagilla"></td>
+  </tr>
+</table>
+<!-- Healthy Timman Bagilla -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Timman Bagilla (تمن باقلة صحي)</h2>
+      <p><strong>Dish Description:</strong> A nutritious take on the traditional fava bean and rice dish using brown basmati rice, less oil, and boiled eggs for protein.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>2 cups brown basmati rice</li>
+        <li>1 cup fresh or frozen fava beans</li>
+        <li>1 bunch fresh dill (or 2 tbsp dried dill)</li>
+        <li>1 tbsp olive oil</li>
+        <li>Salt and pepper to taste</li>
+        <li>2 boiled eggs, sliced (for topping)</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Cook brown rice until tender, then drain.</li>
+        <li>In a pot, lightly sauté dill and fava beans in olive oil.</li>
+        <li>Layer the cooked rice over the dill and beans, cover, and steam for 15–20 minutes.</li>
+        <li>Top with sliced boiled eggs before serving.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount (per serving)</th></tr>
+        <tr><td>Calories</td><td>370 kcal</td></tr>
+        <tr><td>Protein</td><td>13 g</td></tr>
+        <tr><td>Fat</td><td>8 g</td></tr>
+        <tr><td>Carbohydrates</td><td>60 g</td></tr>
+        <tr><td>Fiber</td><td>7 g</td></tr>
+        <tr><td>Sodium</td><td>280 mg</td></tr>
+      </table>
+    </td>    <td style="width: 40%;"><img src="images/timan_bag.jpg" alt="Timman Bagilla"></td>
+
+  </tr>
+</table>
+
+<!-- Tashreeb Dajaj -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: dinner</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Tashreeb Dajaj (تشريب دجاج)</h2>
+      <p><strong>Dish Description:</strong> A comforting Iraqi chicken and chickpea stew served over torn pieces of flatbread, allowing the bread to soak up the flavorful broth.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1.5 kg whole chicken, cut into pieces</li>
+        <li>3 tablespoons vegetable oil</li>
+        <li>3 medium tomatoes, peeled and pureed</li>
+        <li>3 tablespoons tomato paste</li>
+        <li>4 cloves garlic, finely chopped</li>
+        <li>3 dried limes (noomi basra), pierced</li>
+        <li>2 MAGGI® Chicken Bouillon cubes</li>
+        <li>3.5 cups (875 ml) hot water</li>
+        <li>8 small onions, peeled</li>
+        <li>1 medium potato (300 g), cut into large cubes</li>
+        <li>1 cup canned chickpeas (160 g)</li>
+        <li>2 loaves Iranian bread, cut into medium pieces</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Heat vegetable oil in a large non-stick saucepan. Add chicken pieces and cook for 8–10 minutes until golden brown.</li>
+        <li>Add tomato paste and stir for 3 minutes.</li>
+        <li>Add pureed tomatoes, garlic, dried limes, MAGGI® Chicken Bouillon cubes, onions, and water. Bring to a boil and simmer uncovered for 10 minutes over low heat.</li>
+        <li>Add potato and chickpeas. Simmer for 20 minutes or until vegetables and chicken are cooked through.</li>
+        <li>Place bread pieces on a large serving plate. Pour the stew over the bread to soak, then place the remaining stew on top.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>735 kcal</td></tr>
+        <tr><td>Protein</td><td>52 g</td></tr>
+        <tr><td>Fat</td><td>44 g</td></tr>
+        <tr><td>Carbohydrates</td><td>30 g</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/tashreeb_di.jpeg" alt="Tashreeb Dajaj"></td>
+  </tr>
+</table>
+<!-- Healthy Tashreeb Dajaj -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Tashreeb Dajaj (تشريب دجاج صحي)</h2>
+      <p><strong>Dish Description:</strong> A lighter variation of the traditional chicken and chickpea stew using skinless chicken breast, minimal oil, and whole wheat flatbread.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>600g skinless chicken breast, cut into chunks</li>
+        <li>1 tbsp olive oil</li>
+        <li>2 medium tomatoes, pureed</li>
+        <li>2 tbsp tomato paste (low-sodium)</li>
+        <li>3 cloves garlic, minced</li>
+        <li>2 dried limes (noomi basra), pierced</li>
+        <li>4 cups low-sodium chicken broth</li>
+        <li>1 cup canned low-sodium chickpeas</li>
+        <li>1 medium onion, chopped</li>
+        <li>1 whole wheat flatbread, torn into pieces</li>
+        <li>Spices: cumin, turmeric, black pepper</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>In a pot, sauté onions and garlic in olive oil.</li>
+        <li>Add chicken pieces and brown lightly.</li>
+        <li>Stir in tomato paste and pureed tomatoes, add spices and dried limes.</li>
+        <li>Pour in broth and simmer for 30 minutes.</li>
+        <li>Add chickpeas and cook for another 10 minutes.</li>
+        <li>Layer whole wheat bread in a bowl and pour stew on top.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>490 kcal</td></tr>
+        <tr><td>Protein</td><td>46 g</td></tr>
+        <tr><td>Fat</td><td>14 g</td></tr>
+        <tr><td>Carbohydrates</td><td>35 g</td></tr>
+        <tr><td>Fiber</td><td>5 g</td></tr>
+        <tr><td>Sodium</td><td>350 mg</td></tr>
+      </table>
+    </td>    <td style="width: 40%;"><img src="images/tashreeb_di.jpeg" alt="Tashreeb Dajaj"></td>
+
+  </tr>
+</table>
+
+<!-- Zarda -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: dessert</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Zarda (زردة)</h2>
+      <p><strong>Dish Description:</strong> A sweet and aromatic yellow rice dessert flavored with saffron, cardamom, and rosewater, topped with raisins and nuts. Often served on festive occasions.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1 cup basmati rice</li>
+        <li>1/2 cup sugar</li>
+        <li>1/4 tsp saffron threads</li>
+        <li>1 tbsp rosewater</li>
+        <li>1/2 tsp ground cardamom</li>
+        <li>2 tbsp butter or ghee</li>
+        <li>2 tbsp raisins</li>
+        <li>2 tbsp slivered almonds or pistachios</li>
+        <li>Yellow food coloring (optional)</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Soak rice for 30 minutes and drain.</li>
+        <li>Boil until 70% cooked, then drain again.</li>
+        <li>Melt butter, add rice, saffron, sugar, rosewater, cardamom, and coloring. Steam covered.</li>
+        <li>Top with raisins and nuts before serving.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>340 kcal</td></tr>
+        <tr><td>Protein</td><td>5 g</td></tr>
+        <tr><td>Fat</td><td>10 g</td></tr>
+        <tr><td>Carbohydrates</td><td>55 g</td></tr>
+        <tr><td>Sodium</td><td>40 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/zarda.jpg" alt="Zarda"></td>
+  </tr>
+</table>
+<!-- Healthy Zarda -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Zarda (زردة صحية)</h2>
+      <p><strong>Dish Description:</strong> A healthier twist on the classic sweet yellow rice, made with brown rice, reduced sugar, and no added butter. Light, fragrant, and festive.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1 cup brown basmati rice</li>
+        <li>1/4 cup coconut sugar or unrefined cane sugar</li>
+        <li>1/4 tsp saffron threads</li>
+        <li>1 tbsp rosewater</li>
+        <li>1/2 tsp ground cardamom</li>
+        <li>1 tbsp olive oil (optional)</li>
+        <li>1 tbsp raisins</li>
+        <li>1 tbsp chopped almonds or pistachios</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Soak rice for 30 minutes, then drain.</li>
+        <li>Boil rice until 70% cooked, then drain again.</li>
+        <li>In a pot, mix rice with saffron, sugar, rosewater, cardamom, and olive oil.</li>
+        <li>Steam on low heat for 15 minutes until fragrant.</li>
+        <li>Top with raisins and nuts before serving.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>270 kcal</td></tr>
+        <tr><td>Protein</td><td>5 g</td></tr>
+        <tr><td>Fat</td><td>6 g</td></tr>
+        <tr><td>Carbohydrates</td><td>50 g</td></tr>
+        <tr><td>Fiber</td><td>3 g</td></tr>
+        <tr><td>Sodium</td><td>25 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/zarda.jpg" alt="Zarda"></td>
+  </tr>
+</table>
+
+
+<!-- Dibis W'Rashi -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: dessert</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Dibis W'Rashi (دبس و راشي)</h2>
+      <p><strong>Dish Description:</strong> A traditional Iraqi dessert spread made by mixing date syrup and tahini. It's commonly enjoyed with flatbread and offers a sweet, nutty flavor.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>5 tablespoons (100ml) date syrup</li>
+        <li>1 tablespoon (20ml) tahini</li>
+        <li>Optional: a squeeze of lemon juice</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>In a bowl, combine the date syrup and tahini.</li>
+        <li>Mix until well blended. Add lemon juice if desired.</li>
+        <li>Serve with flatbread or as a dip.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>88 kcal</td></tr>
+        <tr><td>Protein</td><td>2.7 g</td></tr>
+        <tr><td>Fat</td><td>7.2 g</td></tr>
+        <tr><td>Carbohydrates</td><td>5 g</td></tr>
+        <tr><td>Fiber</td><td>1.4 g</td></tr>
+        <tr><td>Sodium</td><td>5 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/dibis.jpeg" alt="Dibis W'Rashi"></td>
+  </tr>
+</table>
+<!-- Healthy Dibis W'Rashi -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Dibis W'Rashi (دبس و راشي صحي)</h2>
+      <p><strong>Dish Description:</strong> A nutritious spread made with 100% pure date syrup and light tahini. Lower in sugar and fat, but still rich and satisfying — perfect with whole grain bread.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>3 tablespoons pure date syrup (no added sugar)</li>
+        <li>1 tablespoon light tahini (or regular in smaller quantity)</li>
+        <li>Optional: squeeze of lemon juice for balance</li>
+        <li>Serve with: whole grain flatbread or brown rice cakes</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>In a small bowl, combine the date syrup and tahini.</li>
+        <li>Mix until smooth and creamy.</li>
+        <li>Add lemon juice if desired for extra brightness.</li>
+        <li>Serve with whole grain bread or as a healthy dip.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>70 kcal</td></tr>
+        <tr><td>Protein</td><td>2 g</td></tr>
+        <tr><td>Fat</td><td>5 g</td></tr>
+        <tr><td>Carbohydrates</td><td>6 g</td></tr>
+        <tr><td>Fiber</td><td>1.2 g</td></tr>
+        <tr><td>Sodium</td><td>3 mg</td></tr>
+      </table>
+    </td>    <td style="width: 40%;"><img src="images/dibis.jpeg" alt="Dibis W'Rashi"></td>
+
+  </tr>
+</table>
+
+<!-- Margat Bamia -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: dinner</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Margat Bamia (مرقة بامية)</h2>
+      <p><strong>Dish Description:</strong> A classic Iraqi okra stew simmered with tender lamb in a rich tomato sauce. Served over rice, it’s a comforting family favorite.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>500g lamb stew meat</li>
+        <li>2 tbsp oil</li>
+        <li>1 onion, chopped</li>
+        <li>3 cloves garlic, minced</li>
+        <li>2 cups fresh or frozen okra</li>
+        <li>2 tbsp tomato paste</li>
+        <li>2 tomatoes, chopped</li>
+        <li>1 tsp turmeric</li>
+        <li>Salt and pepper to taste</li>
+        <li>4 cups water or broth</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Sauté onions and garlic in oil. Add lamb and brown on all sides.</li>
+        <li>Stir in tomato paste, tomatoes, spices, and broth. Simmer 45 min.</li>
+        <li>Add okra and cook until soft, about 15–20 min more. Serve over rice.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>480 kcal</td></tr>
+        <tr><td>Protein</td><td>35 g</td></tr>
+        <tr><td>Fat</td><td>28 g</td></tr>
+        <tr><td>Carbohydrates</td><td>18 g</td></tr>
+        <tr><td>Fiber</td><td>4 g</td></tr>
+        <tr><td>Sodium
+</td></tr></table>
+    </td>    <td style="width: 40%;"><img src="images/bamia.jpeg" alt="bamia"></td>
+</tr></table>
+<!-- Healthy Margat Bamia -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Margat Bamia (مرقة بامية صحية)</h2>
+      <p><strong>Dish Description:</strong> A nutritious version of the classic okra stew, made with lean meat, minimal oil, and rich tomato flavor — all without sacrificing taste.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>400g lean lamb or skinless chicken breast</li>
+        <li>1 tbsp olive oil</li>
+        <li>1 onion, chopped</li>
+        <li>2 cloves garlic, minced</li>
+        <li>2 cups fresh or frozen okra</li>
+        <li>2 tbsp tomato paste</li>
+        <li>2 tomatoes, chopped</li>
+        <li>1 tsp turmeric</li>
+        <li>1/2 tsp cumin (optional)</li>
+        <li>Salt and pepper to taste</li>
+        <li>4 cups low-sodium vegetable or meat broth</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>In a nonstick pot, heat olive oil and sauté onions and garlic until soft.</li>
+        <li>Add meat and cook until browned. Stir in tomatoes and tomato paste.</li>
+        <li>Add turmeric, cumin, salt, pepper, and broth. Simmer for 30–40 minutes.</li>
+        <li>Add okra and cook another 15–20 minutes until tender. Serve over brown rice.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>390 kcal</td></tr>
+        <tr><td>Protein</td><td>32 g</td></tr>
+        <tr><td>Fat</td><td>15 g</td></tr>
+        <tr><td>Carbohydrates</td><td>18 g</td></tr>
+        <tr><td>Fiber</td><td>5 g</td></tr>
+        <tr><td>Sodium</td><td>420 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/bamia.jpg" alt="Healthy Margat Bamia"></td>
+  </tr>
+</table>
+
+<!-- Halawat Sha’riyya -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: dessert</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Halawat Sha’riyya (حلاوة شعرية)</h2>
+      <p><strong>Dish Description:</strong> A warm, comforting Iraqi dessert made from toasted vermicelli, sugar, and butter, often garnished with nuts and served during winter or Ramadan.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1 cup vermicelli noodles</li>
+        <li>2 tbsp butter or ghee</li>
+        <li>1/2 cup sugar</li>
+        <li>1/2 tsp cardamom (optional)</li>
+        <li>1 cup water</li>
+        <li>Crushed pistachios or almonds for garnish</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Toast vermicelli in butter until golden brown.</li>
+        <li>Add sugar, cardamom, and water. Simmer until absorbed.</li>
+        <li>Top with nuts and serve warm.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>300 kcal</td></tr>
+        <tr><td>Protein</td><td>4 g</td></tr>
+        <tr><td>Fat</td><td>10 g</td></tr>
+        <tr><td>Carbohydrates</td><td>50 g</td></tr>
+        <tr><td>Sodium</td><td>20 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/halwa.jpg" alt="Halawat Sha’riyya"></td>
+  </tr>
+</table>
+<!-- Healthy Halawat Sha’riyya -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Halawat Sha’riyya (حلاوة شعرية صحية)</h2>
+      <p><strong>Dish Description:</strong> A lighter, heart-friendly version of the classic Iraqi vermicelli dessert, using less sugar, olive oil, and whole wheat noodles.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1 cup whole wheat vermicelli noodles</li>
+        <li>1 tbsp olive oil or light ghee</li>
+        <li>1/4 cup honey or coconut sugar</li>
+        <li>1/2 tsp ground cardamom</li>
+        <li>1 cup water</li>
+        <li>Crushed walnuts or almonds for garnish (optional)</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Break the vermicelli into smaller pieces. Toast in olive oil until golden.</li>
+        <li>Add water, cardamom, and honey. Simmer gently until water is absorbed.</li>
+        <li>Garnish with a sprinkle of crushed nuts and serve warm.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>230 kcal</td></tr>
+        <tr><td>Protein</td><td>4 g</td></tr>
+        <tr><td>Fat</td><td>7 g</td></tr>
+        <tr><td>Carbohydrates</td><td>36 g</td></tr>
+        <tr><td>Sugar</td><td>12 g</td></tr>
+        <tr><td>Fiber</td><td>3 g</td></tr>
+        <tr><td>Sodium</td><td>10 mg</td></tr>
+      </table>
+    </td>    <td style="width: 40%;"><img src="images/halwa.jpg" alt="Halawat Sha’riyya"></td>
+
+  </tr>
+</table>
+
+<!-- Pacha -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: dinner</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Pacha (پاچة)</h2>
+      <p><strong>Dish Description:</strong> A bold and traditional Iraqi dish made from boiled sheep's head, trotters, and stuffed stomach lining. Pacha is a wintertime delicacy and deeply rooted in Iraqi heritage.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1 cleaned sheep head & trotters</li>
+        <li>1 cleaned sheep stomach (optional)</li>
+        <li>1/2 cup rice (for stuffing)</li>
+        <li>1 tsp turmeric, salt, and pepper</li>
+        <li>3 garlic cloves, crushed</li>
+        <li>8 cups water</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Stuff the stomach with rice and spices, secure with thread.</li>
+        <li>Boil all components with turmeric, garlic, salt for 3–4 hours.</li>
+        <li>Serve hot with naan or samoon.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>750 kcal</td></tr>
+        <tr><td>Protein</td><td>60 g</td></tr>
+        <tr><td>Fat</td><td>50 g</td></tr>
+        <tr><td>Carbohydrates</td><td>15 g</td></tr>
+        <tr><td>Sodium</td><td>700 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/pacha.jpeg" alt="Iraqi Pacha"></td>
+  </tr>
+</table>
+<!-- Healthy Pacha -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Pacha (پاچة صحية)</h2>
+      <p><strong>Dish Description:</strong> A lighter interpretation of the traditional Pacha using lean lamb shanks or beef, slow-cooked for deep flavor while reducing saturated fats and sodium.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>500g lean lamb shanks or beef brisket (trimmed of fat)</li>
+        <li>1/2 cup brown rice (for optional stuffing)</li>
+        <li>1 tsp turmeric, salt, pepper</li>
+        <li>4 garlic cloves, minced</li>
+        <li>1 tsp ground cumin</li>
+        <li>8 cups water or low-sodium beef broth</li>
+        <li>Whole grain bread or brown samoon for serving</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Rinse meat and simmer with garlic, spices, and water for 2.5–3 hours until tender.</li>
+        <li>Optional: cook brown rice separately and serve on the side or inside hollowed zucchini instead of traditional stomach stuffing.</li>
+        <li>Serve the meat with broth and whole grain bread.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>480 kcal</td></tr>
+        <tr><td>Protein</td><td>45 g</td></tr>
+        <tr><td>Fat</td><td>22 g</td></tr>
+        <tr><td>Carbohydrates</td><td>22 g</td></tr>
+        <tr><td>Fiber</td><td>3 g</td></tr>
+        <tr><td>Sodium</td><td>300 mg</td></tr>
+      </table>
+    </td>    <td style="width: 40%;"><img src="images/pacha.jpeg" alt="Iraqi Pacha"></td>
+
+  </tr>
+</table>
+
+<!-- Qeema -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: dinner</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Qeema (قيمة نجفية)</h2>
+      <p><strong>Dish Description:</strong> A thick stew from Najaf made of minced lamb, split chickpeas, and tomato paste. Served during Ashura and major gatherings, it's symbolic and savory.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>500g minced lamb</li>
+        <li>1 cup yellow split chickpeas (soaked)</li>
+        <li>1 onion, finely chopped</li>
+        <li>3 tbsp tomato paste</li>
+        <li>1 tsp cinnamon, 1/2 tsp cardamom</li>
+        <li>Salt, pepper</li>
+        <li>Water or lamb stock</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Sauté onions and lamb until browned. Add tomato paste and spices.</li>
+        <li>Add chickpeas and enough water to cover. Simmer until thick.</li>
+        <li>Serve with rice or naan bread.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>540 kcal</td></tr>
+        <tr><td>Protein</td><td>35 g</td></tr>
+        <tr><td>Fat</td><td>20 g</td></tr>
+        <tr><td>Carbohydrates</td><td>45 g</td></tr>
+        <tr><td>Sodium</td><td>500 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/qeema.jpg" alt="Qeema Najaf Style"></td>
+  </tr>
+</table>
+<!-- Healthy Qeema -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Qeema (قيمة نجفية صحية)</h2>
+      <p><strong>Dish Description:</strong> A leaner, more nutritious version of the classic Qeema stew from Najaf using ground turkey or lean beef, high-fiber chickpeas, and less oil and salt.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>500g ground turkey or 90% lean ground beef</li>
+        <li>1 cup yellow split chickpeas (soaked overnight)</li>
+        <li>1 large onion, finely chopped</li>
+        <li>2 tbsp tomato paste</li>
+        <li>1 tsp ground cinnamon</li>
+        <li>1/2 tsp cardamom</li>
+        <li>Salt and pepper to taste</li>
+        <li>2 cups water or low-sodium broth</li>
+        <li>Olive oil spray (or 1 tsp)</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Sauté onions with a light spray of olive oil until golden.</li>
+        <li>Add ground turkey or beef, cook until browned.</li>
+        <li>Stir in tomato paste and spices. Add chickpeas and water.</li>
+        <li>Simmer on low heat for 45–60 mins until thick and flavorful.</li>
+        <li>Serve with brown rice or whole wheat flatbread.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>430 kcal</td></tr>
+        <tr><td>Protein</td><td>36 g</td></tr>
+        <tr><td>Fat</td><td>15 g</td></tr>
+        <tr><td>Carbohydrates</td><td>35 g</td></tr>
+        <tr><td>Fiber</td><td>8 g</td></tr>
+        <tr><td>Sodium</td><td>280 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/qeema.jpg" alt="Qeema Najaf Style"></td>
+
+  </tr>
+</table>
+
+<!-- Iraqi Kebab -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: lunch</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Iraqi Kebab (كباب عراقي)</h2>
+      <p><strong>Dish Description:</strong> Juicy, spiced ground meat skewers grilled to perfection. Served with sumac onions, grilled tomatoes, and warm Iraqi bread — a beloved street food and home-cooked dish.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>500g ground lamb or beef (or mix)</li>
+        <li>1 small onion, finely grated</li>
+        <li>1 tsp ground cumin</li>
+        <li>1 tsp ground coriander</li>
+        <li>1/2 tsp paprika</li>
+        <li>Salt and pepper to taste</li>
+        <li>Chopped parsley (optional)</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Combine meat, onion, and spices in a bowl. Mix well by hand until sticky.</li>
+        <li>Shape onto flat metal skewers or form log shapes by hand.</li>
+        <li>Grill over charcoal or broil in oven until browned (about 5–8 min per side).</li>
+        <li>Serve with grilled vegetables, bread, and sumac onions.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>420 kcal</td></tr>
+        <tr><td>Protein</td><td>28 g</td></tr>
+        <tr><td>Fat</td><td>30 g</td></tr>
+        <tr><td>Carbohydrates</td><td>3 g</td></tr>
+        <tr><td>Sodium</td><td>320 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/kebab.jpeg" alt="Iraqi Kebab"></td>
+  </tr>
+</table>
+<!-- Healthy Iraqi Kebab -->
+<table class="dish-table">
+  <tr style="display: none;"><td>meal: healthy version</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Iraqi Kebab (كباب عراقي صحي)</h2>
+      <p><strong>Dish Description:</strong> A nutritious twist on the traditional Iraqi kebab using lean ground meat, herbs, and oven-baking instead of grilling. Lower in fat and sodium while preserving the signature flavor.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>500g lean ground beef or turkey (90–95% lean)</li>
+        <li>1 small onion, finely grated and squeezed</li>
+        <li>1 garlic clove, minced</li>
+        <li>1 tbsp chopped parsley</li>
+        <li>1/2 tsp ground cumin</li>
+        <li>1/2 tsp ground coriander</li>
+        <li>1/4 tsp paprika</li>
+        <li>Salt and black pepper to taste</li>
+        <li>Olive oil spray (optional)</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Preheat oven to 200°C (390°F). Line a tray with parchment paper.</li>
+        <li>Mix all ingredients well by hand until the mixture is sticky.</li>
+        <li>Shape into log-style kebabs or patties. Place on tray.</li>
+        <li>Lightly spray with olive oil and bake for 15–20 minutes, flipping halfway.</li>
+        <li>Serve with whole wheat bread, grilled tomatoes, and sumac onions.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>330 kcal</td></tr>
+        <tr><td>Protein</td><td>30 g</td></tr>
+        <tr><td>Fat</td><td>18 g</td></tr>
+        <tr><td>Carbohydrates</td><td>2 g</td></tr>
+        <tr><td>Sodium</td><td>240 mg</td></tr>
+      </table>
+    </td>
+    <td style="width: 40%;"><img src="images/kebab.jpeg" alt="Iraqi Kebab"></td>
+  </tr>
+</table>
+
+</body>
+</html>
