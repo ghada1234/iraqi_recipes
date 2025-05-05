@@ -39,11 +39,10 @@
 <body>
   
 
- <h1>Taste of Iraq: Healthy & Traditional Recipes</h1>
+  <h1>Taste of Iraq: Healthy & Traditional Recipes</h1>
   <div style="margin-bottom: 20px;">
 <input type="text" id="search" placeholder="Search recipes..." oninput="filterRecipes()">
 <label for="mealFilter">Meal:</label>
- 
 <select id="mealFilter" onchange="filterRecipes()">
   <option value="all">All</option>
   <option value="breakfast">Breakfast</option>
@@ -58,8 +57,7 @@
 </select>
 
   </div>
-  <!-- Healthy Makhlama -->
-<table class="dish-table" data-translate>
+  <table class="dish-table">
   <tr style="display: none;"><td>meal: breakfast</td></tr>
  
     <td>
@@ -102,7 +100,7 @@
   </tr>
 </table>
   <!-- Healthy Kahi with Geymar -->
-<table class="dish-table" data-translate>
+<table class="dish-table">
   <tr style="display: none;"><td>meal: breakfast</td></tr>
   <tr>
     <td>
@@ -138,7 +136,9 @@
         <tr><td>Fiber</td><td>4 g</td></tr>
         <tr><td>Sodium</td><td>120 mg</td></tr>
 
-      </table>
+      </table>    </td><td style="width: 40%;">
+      <img src="kahi.jpg" alt="kahi">
+    </td>
       <!-- Healthy Bagila Bil Dihin -->
 <table class="dish-table">
   <tr style="display: none;"><td>meal: breakfast</td></tr>
@@ -175,15 +175,12 @@
         <tr><td>Fiber</td><td>8 g</td></tr>
         <tr><td>Sodium</td><td>320 mg</td></tr>
       </table>
+        </td><td style="width: 40%;">
+      <img src="bagila.jpg" alt="Makhlama Iraqi Skillet">
     </td>
-    <td style="width: 40%;"><img src="bagila.jpg" alt="Bagila Bil Dihin"></td>
-
-  </tr>
-</table>
   <!-- Healthy Quzi -->
 <table class="dish-table">
   <tr style="display: none;"><td>meal: lunch</td></tr>
-  <tr style="display: none;"><td>meal: dinner</td></tr>
   <tr>
     <td>
       <h2 class="dish-title">Healthy Quzi (قوزي صحي)</h2>
@@ -221,7 +218,6 @@
 <!-- Healthy Tepsi Baytinijan -->
 <table class="dish-table">
   <tr style="display: none;"><td>meal: lunch</td></tr>
-  <tr style="display: none;"><td>meal: dinner</td></tr>
   <tr>
     <td>
       <h2 class="dish-title">Healthy Tepsi Baytinijan (تبسي باذنجان صحي)</h2>
@@ -261,9 +257,8 @@
   </tr>
 </table>
 <!-- Healthy Maqluba -->
-<table class="dish-table" data-translate>
+<table class="dish-table" >
   <tr style="display: none;"><td>meal: lunch</td></tr>
-  <tr style="display: none;"><td>meal: dinner</td></tr>
   <tr>
     <td>
       <h2 class="dish-title">Healthy Maqluba (مقلوبة صحية)</h2>
@@ -304,7 +299,6 @@
 <!-- Healthy Dolma -->
 <table class="dish-table" data-translate>
   <tr style="display: none;"><td>meal: lunch</td></tr>
-  <tr style="display: none;"><td>meal: dinner</td></tr>
   <tr>
     <td>
       <h2 class="dish-title">Healthy Dolma (دولمة صحية)</h2>
@@ -343,10 +337,7 @@
   </tr>
 </table>
 
-    </td>      <td style="width: 40%;"><img src="kahi.jpg" alt="Kahi with Geymar"></td>
-
-  </tr>
-</table>
+   
  <!-- Healthy Masgouf -->
 <table class="dish-table" data-translate>
     <tr style="display: none;"><td>meal: lunch</td></tr>
@@ -601,43 +592,7 @@
 
   </tr>
 </table>
-<!-- Healthy Halawat Sha’riyya -->
-<table class="dish-table" >
-  <tr style="display: none;"><td>meal:dessert</td></tr>
-  <tr>
-    <td>
-      <h2 class="dish-title">Healthy Halawat Sha’riyya (حلاوة شعرية صحية)</h2>
-      <p><strong>Dish Description:</strong> A lighter, heart-friendly version of the classic Iraqi vermicelli dessert, using less sugar, olive oil, and whole wheat noodles.</p>
-      <h3>Ingredients</h3>
-      <ul>
-        <li>1 cup whole wheat vermicelli noodles</li>
-        <li>1 tbsp olive oil or light ghee</li>
-        <li>1/4 cup honey or coconut sugar</li>
-        <li>1/2 tsp ground cardamom</li>
-        <li>1 cup water</li>
-        <li>Crushed walnuts or almonds for garnish (optional)</li>
-      </ul>
-      <h3>Instructions</h3>
-      <ol>
-        <li>Break the vermicelli into smaller pieces. Toast in olive oil until golden.</li>
-        <li>Add water, cardamom, and honey. Simmer gently until water is absorbed.</li>
-        <li>Garnish with a sprinkle of crushed nuts and serve warm.</li>
-      </ol>
-      <h3>📊 Nutritional Information</h3>
-      <table class="nutrition" style="font-weight:bold">
-        <tr><th>Nutrient</th><th>Amount</th></tr>
-        <tr><td>Calories</td><td>230 kcal</td></tr>
-        <tr><td>Protein</td><td>4 g</td></tr>
-        <tr><td>Fat</td><td>7 g</td></tr>
-        <tr><td>Carbohydrates</td><td>36 g</td></tr>
-        <tr><td>Sugar</td><td>12 g</td></tr>
-        <tr><td>Fiber</td><td>3 g</td></tr>
-        <tr><td>Sodium</td><td>10 mg</td></tr>
-      </table>
-    </td>    <td style="width: 40%;"><img src="halwa.jpg" alt="Halawat Sha’riyya"></td>
 
-  </tr>
-</table>
 <!-- Healthy Pacha -->
 <table class="dish-table">
   <tr style="display: none;"><td>meal: lunch</td></tr>
@@ -791,6 +746,43 @@
         <tr><td>Sodium</td><td>3 mg</td></tr>
       </table>
     </td>    <td style="width: 40%;"><img src="dibis.jpeg" alt="Dibis W'Rashi"></td>
+
+  </tr>
+</table>
+<!-- Healthy Halawat Sha’riyya -->
+<table class="dish-table" >
+  <tr style="display: none;"><td>meal:dessert</td></tr>
+  <tr>
+    <td>
+      <h2 class="dish-title">Healthy Halawat Sha’riyya (حلاوة شعرية صحية)</h2>
+      <p><strong>Dish Description:</strong> A lighter, heart-friendly version of the classic Iraqi vermicelli dessert, using less sugar, olive oil, and whole wheat noodles.</p>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1 cup whole wheat vermicelli noodles</li>
+        <li>1 tbsp olive oil or light ghee</li>
+        <li>1/4 cup honey or coconut sugar</li>
+        <li>1/2 tsp ground cardamom</li>
+        <li>1 cup water</li>
+        <li>Crushed walnuts or almonds for garnish (optional)</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ol>
+        <li>Break the vermicelli into smaller pieces. Toast in olive oil until golden.</li>
+        <li>Add water, cardamom, and honey. Simmer gently until water is absorbed.</li>
+        <li>Garnish with a sprinkle of crushed nuts and serve warm.</li>
+      </ol>
+      <h3>📊 Nutritional Information</h3>
+      <table class="nutrition" style="font-weight:bold">
+        <tr><th>Nutrient</th><th>Amount</th></tr>
+        <tr><td>Calories</td><td>230 kcal</td></tr>
+        <tr><td>Protein</td><td>4 g</td></tr>
+        <tr><td>Fat</td><td>7 g</td></tr>
+        <tr><td>Carbohydrates</td><td>36 g</td></tr>
+        <tr><td>Sugar</td><td>12 g</td></tr>
+        <tr><td>Fiber</td><td>3 g</td></tr>
+        <tr><td>Sodium</td><td>10 mg</td></tr>
+      </table>
+    </td>    <td style="width: 40%;"><img src="halwa.jpg" alt="Halawat Sha’riyya"></td>
 
   </tr>
 </table>
