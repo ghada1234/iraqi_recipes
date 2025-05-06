@@ -1,60 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
-  <title>Taste of Iraq – Healthy Recipes</title>
-  <style>
-    body { font-family: Arial, sans-serif; background-color: #fff8f0; padding: 20px; }
-    .dish-table { width: 100%; margin-bottom: 40px; border-collapse: collapse; }
-    .dish-table td { vertical-align: top; padding: 10px; }
-    .dish-table img { width: 100%; max-width: 400px; border-radius: 8px; }
-    h2.dish-title { color: #006400; margin-top: 0; }
-    table.nutrition { width: 100%; border-collapse: collapse; margin-top: 10px; }
-    table.nutrition th, table.nutrition td { border: 1px solid #ccc; padding: 8px; }
-    table.nutrition th { background-color: #e0ffe0; }
+  <title>Taste of Iraq: Healthy & Traditional Recipes</title>
+    <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background-color: #fff8f0; }
+    #search { padding: 10px; font-size: 16px; width: 300px; margin-bottom: 20px; }
+    .recipe { border: 1px solid #ccc; padding: 10px; margin-bottom: 15px; background: #fff; border-radius: 6px; }
+    .recipe h2 { color: #8B0000; margin: 0 0 10px 0; }
+    .hidden { display: none; }
   </style>
-  <script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      direction: ltr;
+      background-color: #fff8f0;
+      padding: 20px;
+    }
+    .dish-table {
+      width: 100%;
+      margin-bottom: 40px;
+      border-collapse: collapse;
+    }
+    .dish-table td {
+      vertical-align: top;
+      padding: 10px;
+    }
+    .dish-table img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 8px;
+    }
+    h2.dish-title {
+      color: #8B0000;
+      margin-top: 0;
+    }
+    table.nutrition {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table.nutrition th, table.nutrition td {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+    table.nutrition th {
+      background-color: #f5e1d2;
+    }
+  </style>
+
+<script>
   function filterRecipes() {
-  const query = document.getElementById("search").value.toLowerCase();
-  const mealType = document.getElementById("mealFilter").value.toLowerCase();
-  const tables = document.querySelectorAll(".dish-table");
+    const query = document.getElementById("search").value.toLowerCase();
+    const selectedMeal = document.getElementById("mealFilter").value;
 
-  tables.forEach(table => {
-    const fullText = table.innerText.toLowerCase();
-    const matchesQuery = fullText.includes(query);
+    const allTables = document.querySelectorAll(".dish-table");
 
-    const matchesMeal = mealType === "" || fullText.includes(mealType);
-    table.style.display = (matchesQuery && matchesMeal) ? "" : "none";
-  });
-  }
+    allTables.forEach(table => {
+      const text = table.innerText.toLowerCase();
+      const mealTags = Array.from(table.querySelectorAll("tr[style*='display: none;'] td"))
+                            .map(td => td.innerText.replace("meal: ", "").trim().toLowerCase());
 
- 
+      const matchesMeal = (selectedMeal === "all") || mealTags.includes(selectedMeal);
+      const matchesQuery = query === "" || text.includes(query);
 
-</script>
-<script type="text/javascript">
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({
-      pageLanguage: 'en',
-      includedLanguages: 'en,ar',
-      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-    }, 'google_translate_element');
+      if (matchesMeal && matchesQuery) {
+        table.style.display = "table";
+      } else {
+        table.style.display = "none";
+      }
+    });
   }
 </script>
-
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
 
 </head>
 <body>
-  
-
   <h1>Taste of Iraq: Healthy & Traditional Recipes</h1>
   <div style="margin-bottom: 20px;">
-
 <input type="text" id="search" placeholder="Search recipes..." oninput="filterRecipes()">
-
-
 <label for="mealFilter">Meal:</label>
 <select id="mealFilter" onchange="filterRecipes()">
   <option value="all">All</option>
@@ -64,11 +87,13 @@
   <option value="dessert">Dessert</option>
 </select>
 <select onchange="location = this.value;" style="margin-bottom: 20px;">
-  <option selected>Choose version</option>
-  <option value="index.html">Traditional Recipes</option>
-  <option value="index_h.html">Healthy Recipes</option>
+  <option selected>Choose Language</option>
+  <option value="index_ar.html">Arabic</option>
+  <option value="index.html">English</option>
 </select>
-<div id="google_translate_element"></div>
+</select>
+</select>
+
   </div>
   <table class="dish-table">
   <tr style="display: none;"><td>meal: breakfast</td></tr>
