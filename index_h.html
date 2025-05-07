@@ -3,13 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Taste of Iraq: Healthy & Traditional Recipes</title>
-    <style>
-    body { font-family: Arial, sans-serif; padding: 20px; background-color: #fff8f0; }
-    #search { padding: 10px; font-size: 16px; width: 300px; margin-bottom: 20px; }
-    .recipe { border: 1px solid #ccc; padding: 10px; margin-bottom: 15px; background: #fff; border-radius: 6px; }
-    .recipe h2 { color: #8B0000; margin: 0 0 10px 0; }
-    .hidden { display: none; }
-  </style>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -48,7 +41,6 @@
       background-color: #f5e1d2;
     }
   </style>
-
 <script>
   function filterRecipes() {
     const query = document.getElementById("search").value.toLowerCase();
@@ -74,23 +66,24 @@
 </script>
 
 </head>
+
+
+</head>
 <body>
   <h1>Taste of Iraq: Healthy & Traditional Recipes</h1>
-  <div >
+  <div style="margin-bottom: 20px;">
 <input type="text" id="search" placeholder="Search recipes..." oninput="filterRecipes()">
 <label for="mealFilter">Meal:</label>
 <select id="mealFilter" onchange="filterRecipes()">
   <option value="all">All</option>
   <option value="breakfast">Breakfast</option>
-  <option value="lunch and dinner">Lunch and Dinner</option>
-  
+  <option value="lunch and dinner">lunch and dinner</option>
   <option value="dessert">Dessert</option>
 </select>
-    <select onchange="location = this.value;" style="margin-bottom: 20px;">
+      <select onchange="location = this.value;" style="margin-bottom: 20px;">
       <option selected>Choose Recipes</option>
   <option value="index.html"> Traditional Recipes </option>
   <option value="index_h.html"> Healthy Recipes</option>
-</select>
 </select>
 <select onchange="location = this.value;" style="margin-bottom: 20px;">
   <option selected>Choose Language</option>
@@ -98,7 +91,7 @@
   <option value="index.html">English</option>
 </select>
 </select>
-</select>
+  </div>
 
   </div>
   <table class="dish-table">
